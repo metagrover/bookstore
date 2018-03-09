@@ -1,0 +1,67 @@
+header {
+  width: 100%;
+  margin: 0;
+  padding: 3rem 6rem;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+header h2 {
+  color: #424242;
+  text-align: center;
+  letter-spacing: 0.06rem;
+}
+
+.container input {
+  border: 0;
+  height: 60px;
+  padding: 0 28px;
+  font-size: 18px;
+  border-radius: 999em;
+  box-shadow: 0 20px 30px 0 rgba(16,36,94,0.2), inset 0 -8px 0 0 rgba(103,117,161,0.08);
+}
+
+.container div svg.search-icon {
+  fill: #888;
+  margin-right: 8px;
+}
+
+.books-wrapper {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book-card {
+  width: 245px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.book-card img {
+  width: auto;
+  height: 220px;
+  box-shadow: 0 10px 40px 0 rgba(62,57,107,0.07), 0 2px 9px 0 rgba(62,57,107,0.06);
+}
+
+.book-card h3 {
+  font-size: 16px;
+  margin: 15px 0 8px;
+  padding: 0 15px;
+  line-height: 1.2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.book-card p {
+  color: #888;
+  font-size: 14px;
+  margin: 0;
+  padding: 0 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
